@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="25" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60026" started-at="2023-05-16T15:05:59 IST" finished-at="2023-05-16T15:06:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60026" started-at="2023-05-16T15:05:59 IST" finished-at="2023-05-16T15:06:59 IST">
+      <class name="com.saucelabs.ProductsPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="setUp" is-config="true" duration-ms="1808" started-at="2023-05-16T15:06:40 IST" finished-at="2023-05-16T15:06:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addItemsToCart()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="addItemsToCart" duration-ms="1071" started-at="2023-05-16T15:06:42 IST" finished-at="2023-05-16T15:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="tearDown" is-config="true" duration-ms="698" started-at="2023-05-16T15:06:43 IST" finished-at="2023-05-16T15:06:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="setUp" is-config="true" duration-ms="1766" started-at="2023-05-16T15:06:44 IST" finished-at="2023-05-16T15:06:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productsFromHighToLow()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="productsFromHighToLow" duration-ms="1131" started-at="2023-05-16T15:06:46 IST" finished-at="2023-05-16T15:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsFromHighToLow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="tearDown" is-config="true" duration-ms="675" started-at="2023-05-16T15:06:47 IST" finished-at="2023-05-16T15:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="setUp" is-config="true" duration-ms="1840" started-at="2023-05-16T15:06:47 IST" finished-at="2023-05-16T15:06:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productsFromLowToHigh()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="productsFromLowToHigh" duration-ms="1086" started-at="2023-05-16T15:06:49 IST" finished-at="2023-05-16T15:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsFromLowToHigh -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="tearDown" is-config="true" duration-ms="674" started-at="2023-05-16T15:06:50 IST" finished-at="2023-05-16T15:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="setUp" is-config="true" duration-ms="1785" started-at="2023-05-16T15:06:51 IST" finished-at="2023-05-16T15:06:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productsInDesc()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="productsInDesc" duration-ms="944" started-at="2023-05-16T15:06:53 IST" finished-at="2023-05-16T15:06:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsInDesc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.ProductsPageTest@4e718207]" name="tearDown" is-config="true" duration-ms="695" started-at="2023-05-16T15:06:54 IST" finished-at="2023-05-16T15:06:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.ProductsPageTest -->
+      <class name="com.saucelabs.EndtoEndTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.EndtoEndTest@8e24743]" name="setUp" is-config="true" duration-ms="1807" started-at="2023-05-16T15:06:14 IST" finished-at="2023-05-16T15:06:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="completeEndToEndTest()[pri:0, instance:com.saucelabs.EndtoEndTest@8e24743]" name="completeEndToEndTest" duration-ms="3385" started-at="2023-05-16T15:06:16 IST" finished-at="2023-05-16T15:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeEndToEndTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.EndtoEndTest@8e24743]" name="tearDown" is-config="true" duration-ms="1195" started-at="2023-05-16T15:06:19 IST" finished-at="2023-05-16T15:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.EndtoEndTest -->
+      <class name="com.saucelabs.CartPageTest">
+        <test-method status="PASS" signature="configureLog()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="configureLog" is-config="true" duration-ms="161" started-at="2023-05-16T15:05:59 IST" finished-at="2023-05-16T15:05:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureLog -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="setUp" is-config="true" duration-ms="3109" started-at="2023-05-16T15:05:59 IST" finished-at="2023-05-16T15:06:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cartPage()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="cartPage" duration-ms="1996" started-at="2023-05-16T15:06:02 IST" finished-at="2023-05-16T15:06:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="tearDown" is-config="true" duration-ms="681" started-at="2023-05-16T15:06:04 IST" finished-at="2023-05-16T15:06:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="setUp" is-config="true" duration-ms="1780" started-at="2023-05-16T15:06:05 IST" finished-at="2023-05-16T15:06:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="continueShopping()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="continueShopping" duration-ms="1582" started-at="2023-05-16T15:06:07 IST" finished-at="2023-05-16T15:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="tearDown" is-config="true" duration-ms="697" started-at="2023-05-16T15:06:09 IST" finished-at="2023-05-16T15:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="setUp" is-config="true" duration-ms="2870" started-at="2023-05-16T15:06:09 IST" finished-at="2023-05-16T15:06:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeItem()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="removeItem" duration-ms="1320" started-at="2023-05-16T15:06:12 IST" finished-at="2023-05-16T15:06:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="tearDown" is-config="true" duration-ms="655" started-at="2023-05-16T15:06:13 IST" finished-at="2023-05-16T15:06:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.saucelabs.CartPageTest@43bd930a]" name="endReport" is-config="true" duration-ms="357" started-at="2023-05-16T15:06:59 IST" finished-at="2023-05-16T15:07:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.saucelabs.CartPageTest -->
+      <class name="com.saucelabs.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="setUp" is-config="true" duration-ms="1864" started-at="2023-05-16T15:06:26 IST" finished-at="2023-05-16T15:06:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="loginPage" duration-ms="556" started-at="2023-05-16T15:06:28 IST" data-provider="credentials" finished-at="2023-05-16T15:06:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="tearDown" is-config="true" duration-ms="657" started-at="2023-05-16T15:06:28 IST" finished-at="2023-05-16T15:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="setUp" is-config="true" duration-ms="1810" started-at="2023-05-16T15:06:29 IST" finished-at="2023-05-16T15:06:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="loginPage" duration-ms="565" started-at="2023-05-16T15:06:31 IST" data-provider="credentials" finished-at="2023-05-16T15:06:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="tearDown" is-config="true" duration-ms="709" started-at="2023-05-16T15:06:31 IST" finished-at="2023-05-16T15:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="setUp" is-config="true" duration-ms="1851" started-at="2023-05-16T15:06:32 IST" finished-at="2023-05-16T15:06:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="loginPage" duration-ms="5544" started-at="2023-05-16T15:06:34 IST" data-provider="credentials" finished-at="2023-05-16T15:06:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.LoginPageTest@28ac3dc3]" name="tearDown" is-config="true" duration-ms="685" started-at="2023-05-16T15:06:39 IST" finished-at="2023-05-16T15:06:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.LoginPageTest -->
+      <class name="com.saucelabs.CheckoutOverviewPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.CheckoutOverviewPageTest@74a10858]" name="setUp" is-config="true" duration-ms="2020" started-at="2023-05-16T15:06:20 IST" finished-at="2023-05-16T15:06:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkoutOverView()[pri:0, instance:com.saucelabs.CheckoutOverviewPageTest@74a10858]" name="checkoutOverView" duration-ms="2208" started-at="2023-05-16T15:06:22 IST" finished-at="2023-05-16T15:06:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutOverView -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.CheckoutOverviewPageTest@74a10858]" name="tearDown" is-config="true" duration-ms="706" started-at="2023-05-16T15:06:25 IST" finished-at="2023-05-16T15:06:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.CheckoutOverviewPageTest -->
+      <class name="com.saucelabs.CompleteOrderPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucelabs.CompleteOrderPage@1d371b2d]" name="setUp" is-config="true" duration-ms="1773" started-at="2023-05-16T15:06:54 IST" finished-at="2023-05-16T15:06:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="completeOrder()[pri:0, instance:com.saucelabs.CompleteOrderPage@1d371b2d]" name="completeOrder" duration-ms="2545" started-at="2023-05-16T15:06:56 IST" finished-at="2023-05-16T15:06:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelabs.CompleteOrderPage@1d371b2d]" name="tearDown" is-config="true" duration-ms="668" started-at="2023-05-16T15:06:59 IST" finished-at="2023-05-16T15:06:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelabs.CompleteOrderPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

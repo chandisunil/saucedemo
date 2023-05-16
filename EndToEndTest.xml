@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.saucelabs.Utils.ListenerClass"></listener>
+    </listeners>
+  <test thread-count="5" name="Test">
+      <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.saucelabs.CartPageTest"/>
+      <class name="com.saucelabs.EndtoEndTest"/>
+      <class name="com.saucelabs.CheckoutOverviewPageTest"/>
+      <class name="com.saucelabs.CheckoutPageTest"/>
+      <class name="com.saucelabs.LoginPageTest"/>
+      <class name="com.saucelabs.ProductsPageTest"/>
+      <class name="com.saucelabs.CompleteOrderPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

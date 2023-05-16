@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.saucelabs.CheckoutOverviewPageTest">
+        <methods>
+          <include name="configureLog"/>
+          <include name="checkoutOverView"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.saucelabs.CheckoutOverviewPageTest -->
+      <class name="com.saucelabs.ProductsPageTest">
+        <methods>
+          <include name="addItemsToCart"/>
+          <include name="productsInDesc"/>
+          <include name="configureLog"/>
+          <include name="productsFromHighToLow"/>
+          <include name="setUp"/>
+          <include name="productsFromLowToHigh"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saucelabs.ProductsPageTest -->
+      <class name="com.saucelabs.CompleteOrderPage">
+        <methods>
+          <include name="configureLog"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="completeOrder"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.saucelabs.CompleteOrderPage -->
+      <class name="com.saucelabs.CartPageTest">
+        <methods>
+          <include name="configureLog"/>
+          <include name="removeItem"/>
+          <include name="continueShopping"/>
+          <include name="setUp"/>
+          <include name="cartPage"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.saucelabs.CartPageTest -->
+      <class name="com.saucelabs.LoginPageTest">
+        <methods>
+          <include name="configureLog"/>
+          <include name="loginPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.saucelabs.LoginPageTest -->
+      <class name="com.saucelabs.EndtoEndTest">
+        <methods>
+          <include name="configureLog"/>
+          <include name="completeEndToEndTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.saucelabs.EndtoEndTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
